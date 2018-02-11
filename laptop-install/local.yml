@@ -15,3 +15,8 @@
         - chromium-browser
         - build-essential
         - git
+    - name: Enable lightdm
+      systemd:
+        name: lightdm
+        state: started
+        enabled: True 
