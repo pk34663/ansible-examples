@@ -12,6 +12,6 @@
         - xorg
         - i3
         - lightdm
-        - chromium
+        - chromium-browser
         - build-essential
         - git
